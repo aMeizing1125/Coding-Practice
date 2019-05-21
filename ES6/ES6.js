@@ -12,4 +12,7 @@ console.log(createGreeting("Hi message", "Mei"));
 const createGreeting2 = (message, name) => message + ", " + name + "!"; 
 console.log(createGreeting2("Message: Hi ", "Mei"));
 
+const createGreeting3 = (message, name) => `${message}, ${name}! `;
+console.log(createGreeting3("Message3: Hi ", "Jonathan"));
+
 
